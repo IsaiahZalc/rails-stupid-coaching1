@@ -1,0 +1,9 @@
+<div class="text-left border-left" style="padding: 10px; margin: 10px;">
+<p><%= params[:answer] %></p>
+<p>- You</p>
+</div>
+<div class="text-left border-left"  style="background-color: #fffb95; padding: 10px; margin: 10px" class="text-left" >
+<p><strong><%= @answer %><strong></p>
+<p>- Your coach</p>
+</div>
+<p class="text-left"><%= link_to "Ask a new question", ask_path %></p>
